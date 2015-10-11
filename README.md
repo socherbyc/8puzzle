@@ -4,9 +4,9 @@
 
         $ time ./8puzzle.out
 
-        real	0m1.123s
-        user	0m1.116s
-        sys	0m0.000s
+        real	0m6.487s
+        user	0m6.484s
+        sys	0m0.004s
 
 ## TODOS
   - manhatan distance + A*
