@@ -1,16 +1,13 @@
+/**
+ * Bitset Structure
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #ifndef BITSET_H_
 #define BITSET_H_
-
-/**
- * <span lang='pt-br'>
- *   Ok, eu tentei fazer o bitset ter uma implementacao o mais funcional possivel,
- *   mas nao sei como manipular arrays de forma eficiente programando de forma funcional.
- *   Nem o array nativo nem o bitset sao imutaveis
- *
- *   O que ficou "fora do padrao" foi o uso de funcoes recursivas ao inves de
- *   estruturas para loops.
- * </span>
- */
 
 #include <inttypes.h>
 #include <stdio.h>
@@ -19,7 +16,9 @@
 
 typedef struct bisset Bitset;
 
-// se voce trocar o tamanho disto, create_bitset_from_bits e bitset_set_all deixam de funcionar
+// se o tamanho disto for diferente de 1 byte,
+// create_bitset_from_bits e bitset_set_all
+// deixam de funcionar
 typedef uint8_t Byte;
 extern const int LENGHT_BYTE;
 extern const int BYTE_BIT;

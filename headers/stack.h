@@ -1,3 +1,11 @@
+/**
+ * Stack Structure
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #ifndef STACK_H
 #define STACK_H
 

@@ -1,3 +1,11 @@
+/**
+ * Factoradic Functions
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #include <factoradic.h>
 
 /*

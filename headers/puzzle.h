@@ -1,3 +1,11 @@
+/**
+ * Puzzle Structure
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #ifndef PUZZLE_H_
 #define PUZZLE_H_
 
@@ -8,6 +16,7 @@
 #include <math.h>
 #include <inttypes.h>
 #include <bitset.h>
+#include <stack.h>
 #include <factoradic.h>
 
 typedef struct puzzle Puzzle;

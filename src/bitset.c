@@ -1,3 +1,11 @@
+/**
+ * Bitset Implementation
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #include <bitset.h>
 
 struct bisset {

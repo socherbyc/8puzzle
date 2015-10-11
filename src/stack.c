@@ -1,3 +1,11 @@
+/**
+ * Stack Implementation
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #include <stack.h>
 
 struct node {

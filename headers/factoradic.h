@@ -1,3 +1,11 @@
+/**
+ * Factoradic Structure
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #ifndef FACTORADIC_H
 #define FACTORADIC_H
 

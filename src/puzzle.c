@@ -1,3 +1,11 @@
+/**
+ * Puzzle Implementation
+ *
+ * @author socherbyc
+ * @license GPL v2
+ * @version 1.0
+ */
+
 #include <puzzle.h>
 
 struct puzzle {
